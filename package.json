@@ -1,0 +1,18 @@
+{
+  "name": "gp",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rimraf build"
+  },
+  "dependencies": {
+    "octokit": "^2.0.14"
+  },
+  "devDependencies": {
+    "@octokit/types": "^9.0.0",
+    "@types/node": "^18.11.18",
+    "rimraf": "^4.1.2",
+    "typescript": "^4.9.4"
+  }
+}
