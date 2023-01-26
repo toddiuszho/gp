@@ -1,3 +1,7 @@
+*.log
+build
+package-lock.json
+
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
@@ -9,3 +13,4 @@
 # Documentation here: https://yarnpkg.com/features/zero-installs
 !.yarn/cache
 #.pnp.*
+
